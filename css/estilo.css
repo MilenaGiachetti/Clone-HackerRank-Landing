@@ -1,0 +1,146 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand img {
+  height: 18px;
+}
+
+.btn {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  letter-spacing: -1px;
+  border-radius: 2px;
+}
+
+nav .nav-item {
+  font-size: 15px;
+}
+
+nav .nav-item .nav-link {
+  color: #000 !important;
+}
+
+nav .nav-item .dropwdown-item {
+  font-size: 18px;
+}
+
+nav .btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0px;
+}
+
+main .principal .mg-btn-green {
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 126, 50, 0.4);
+          box-shadow: 0px 5px 10px rgba(0, 126, 50, 0.4);
+}
+
+main .principal p a {
+  text-decoration: underline;
+  color: #000;
+}
+
+main .principal p a:hover {
+  text-decoration: none;
+}
+
+main .mg-carousel .carousel-inner img {
+  height: 50px;
+}
+
+main .mg-bg-green {
+  background: #f3f7f7;
+}
+
+main .mg-bg-green .uppertitle {
+  font-size: 12px;
+}
+
+main .mg-bg-green h3 {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  font-size: 27px;
+  letter-spacing: -2px;
+}
+
+main .mg-bg-green .normalp {
+  font-size: 20px;
+  max-width: 340px;
+}
+
+main .mg-bg-green .btn {
+  font-size: 18px;
+}
+
+main .celebrating .mg-bg-blue {
+  background: #00afe6;
+  color: #fff;
+}
+
+main .celebrating .mg-bg-orange {
+  background: #f0a815;
+}
+
+footer .mg-bg-footer-gray {
+  background: #f3f7f7;
+}
+
+footer .mg-bg-footer-gray .mg-title {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: gray;
+  padding: 25px 0 12px 0;
+}
+
+footer .mg-bg-footer-gray .mg-subitems {
+  font-size: 14px;
+}
+
+footer .mg-bg-footer-gray .mg-subitems a {
+  display: inline-block;
+  color: gray;
+  padding: 4px 0;
+}
+
+footer .mg-bg-footer-gray .mg-circulo-medio {
+  text-align: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+footer .mg-bg-footer-gray .mg-bg-hr a {
+  font-size: 35px;
+  color: #32C766;
+}
+
+footer .mg-bg-footer-gray .mg-bg-fb {
+  background: #3b5998;
+}
+
+footer .mg-bg-footer-gray .mg-bg-fb a {
+  color: #f3f7f7;
+  font-size: 14px;
+}
+
+footer .mg-bg-footer-gray .mg-bg-in {
+  background: #0077b5;
+}
+
+footer .mg-bg-footer-gray .mg-bg-in a {
+  color: #f3f7f7;
+  font-size: 14px;
+}
+
+footer .mg-bg-footer-gray .mg-bg-tw {
+  background: #1da1f2;
+}
+
+footer .mg-bg-footer-gray .mg-bg-tw a {
+  color: #f3f7f7;
+  font-size: 14px;
+}
+/*# sourceMappingURL=estilo.css.map */
