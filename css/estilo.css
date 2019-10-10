@@ -1,5 +1,14 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+.alert {
+  border-radius: 0;
 }
 
 .navbar-brand img {
@@ -74,17 +83,18 @@ main .mg-bg-green .btn {
   font-size: 18px;
 }
 
-main .celebrating .mg-bg-blue {
-  background: #00afe6;
+main .celebrating {
   color: #fff;
 }
 
-main .celebrating .mg-bg-orange {
-  background: #f0a815;
+.mg-bg-dual {
+  background: -webkit-gradient(linear, left top, right top, from(#00afe6), color-stop(50%, #00afe6), color-stop(51%, #f0a815), to(#f0a815));
+  background: linear-gradient(to right, #00afe6 0%, #00afe6 50%, #f0a815 51%, #f0a815 100%);
 }
 
 footer .mg-bg-footer-gray {
-  background: #f3f7f7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eaf7f7), color-stop(50%, white), to(white));
+  background: linear-gradient(to bottom, #eaf7f7 0%, white 50%, white 100%);
 }
 
 footer .mg-bg-footer-gray .mg-title {
@@ -97,6 +107,13 @@ footer .mg-bg-footer-gray .mg-title {
 
 footer .mg-bg-footer-gray .mg-subitems {
   font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 footer .mg-bg-footer-gray .mg-subitems a {
@@ -142,5 +159,54 @@ footer .mg-bg-footer-gray .mg-bg-tw {
 footer .mg-bg-footer-gray .mg-bg-tw a {
   color: #f3f7f7;
   font-size: 14px;
+}
+
+.mg-alertafinal .container .mg-small-p {
+  font-size: 13px !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .container,
+  .alert {
+    margin-left: 0;
+    margin-right: 0 !important;
+    max-width: unset !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mg-bg-dual {
+    background: #00afe6;
+  }
+  .navbar .container .navbar-nav {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch !important;
+        -ms-flex-align: stretch !important;
+            align-items: stretch !important;
+    width: 300px;
+    min-height: 100vh;
+    padding: 0 40px;
+    -webkit-box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.3);
+  }
+  .mg-cierre {
+    padding: 40px;
+  }
+  .mg-cierre span {
+    font-size: 40px;
+    color: #000;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .container .navbar-nav {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */

@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <title>HackerRank</title>
+    <title>Clone - HackerRank</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/99b27c8ee8.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro:400,500,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
-    <div class="alert alert-success d-none d-md-block">
+
+<body class="mb-5">
+    <div class="alert  alert-success d-none d-md-block">
         <div class="container ">
             <div class="row">
                 <div class="col">
                     <a href="#" class="text-success">Eliminate unconscious bias and offer an inclusive interview experience with HackerRank’s Diversity and Inclusion Center.</a>
                 </div>
             </div>
-        </div> 
+        </div>
     </div>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top p-4">
-            <div class="container d-flex align-items-baseline">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-4">
+            <div class="container d-flex align-items-baseline sticky-top">
                 <a href="#" class="navbar-brand"><img src="img/hackerrank_logo.png" alt=""></a>
                 <button type="button" data-toggle="collapse" class="navbar-toggler" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
                     <span class="navbar-toggler-icon"></span>
@@ -31,6 +33,11 @@
 
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav mr-auto">
+                        <li>
+                            <button type="button" data-toggle="collapse" class="navbar-toggler mg-cierre close d-block d-lg-none" data-target="#navbar" aria-controls="navbar" aria-label="Menu de Navegacion">
+                                <span aria-hidden="true" class="d-block py-3">&times;</span>
+                            </button>
+                        </li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" id="menu-products" data-toggle="dropdown" aria-haspopup="true">
                                 Products
@@ -98,13 +105,13 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">About us</a>
                             <div class="dropdown-divider d-lg-none"></div>
-                        </li>                  
+                        </li>
+                        <li class="nav-item text-center">
+                            <a href="#" class="btn btn-sm text-muted mr-1"> Login</a>
+                            <a href="#" class="btn d-none d-lg-inline-block text-muted btn-outline-dark px-4 btn-sm">Sign Up</a>
+                            <a href="#" class="btn d-inline-block  d-lg-none text-muted">Sign Up</a>
+                        </li>
                     </ul>
-                    <div class="text-center">
-                        <a href="#" class="btn btn-sm text-muted mr-1"> Login</a>
-                        <a href="#" class="btn d-none d-lg-inline-block text-muted btn-outline-dark px-4 btn-sm">Sign Up</a>
-                        <a href="#" class="btn d-inline-block  d-lg-none text-muted">Sign Up</a>
-                    </div>
                 </div>
             </div>
         </nav>
@@ -135,7 +142,7 @@
 
                         </div>
                         <div class="carousel-item">
-                            <img src="img/logo-bookingcom.png" alt=""class="mr-5">
+                            <img src="img/logo-bookingcom.png" alt="" class="mr-5">
                             <img src="img/logo-icon-dropbox.png" alt="" class="mr-5">
                             <img src="img/logo-atlassian-a.png" alt="" class="mr-5">
                             <img src="img/logo-icon-stripe.png" alt="" class="mr-5">
@@ -152,119 +159,150 @@
                         </div>
                     </div>
                 </div>
+
             </div>
-            <section class="row mg-bg-green">
-                <div class="col-12 col-md-6">
-                    <p class="text-muted uppertitle pt-5 pb-2">HACKERRANK FOR DEVELOPERS</p>
-                    <h3>Code & Get Hired</h3>
-                    <p class="normalp py-2">Join over 5 million developers, improve your coding skills, and find the best job.</p>
-                    <button class="btn btn-lg btn-outline-success">Sign Up & Code</button>
-                </div>
-                <div class="col-12 col-md-6  pb-5">
-                    <p class="text-muted uppertitle pt-5  pb-2">HACKERRANK FOR WORK</p>
-                    <h3>Hire Talent</h3>
-                    <p class="normalp py-2">HackerRank for Work is the leading end-to-end technical recruiting platform for hiring developers.</p>
-                    <button class="btn btn-lg btn-outline-success">Learn More</button>
-                </div>
-            </section>
-            <section class="row celebrating">
-                <div class="col-12 col-lg-6 mg-bg-blue px-0 pl-3 pt-4 d-flex flex-column justify-content-between align-items-start">
-                    <h2>Celebrating Women Who Code</h2>
-                    <p>Learn how women developers are making an impact at Audible, IBM, & more</p>
-                    <button class="btn btn-lg btn-light mb-4">Learn More</button>
-                </div>
-                <div class="col-12 col-lg-6 mg-bg-orange px-0">
-                    <img src="img/banner-desktop.png" class="w-100 d-none d-lg-block" alt="">
-                    <img src="img/banner-tablet.png" class="w-100 d-block d-lg-none" alt="">
-                </div>
-            </section>
         </div>
+        <section class="mg-bg-green">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p class="text-muted uppertitle pt-5 pb-2">HACKERRANK FOR DEVELOPERS</p>
+                        <h3>Code & Get Hired</h3>
+                        <p class="normalp py-2">Join over 5 million developers, improve your coding skills, and find the best job.</p>
+                        <button class="btn btn-lg btn-outline-success">Sign Up & Code</button>
+                    </div>
+                    <div class="col-12 col-md-6  pb-5">
+                        <p class="text-muted uppertitle pt-5  pb-2">HACKERRANK FOR WORK</p>
+                        <h3>Hire Talent</h3>
+                        <p class="normalp py-2">HackerRank for Work is the leading end-to-end technical recruiting platform for hiring developers.</p>
+                        <button class="btn btn-lg btn-outline-success">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mg-bg-dual">
+            <div class="container">
+                <div class="row celebrating">
+                    <div class="col-12 col-lg-6 px-0 pl-3 pt-4 d-flex flex-column justify-content-between align-items-start">
+                        <h2>Celebrating Women Who Code</h2>
+                        <p>Learn how women developers are making an impact at Audible, IBM, & more</p>
+                        <button class="btn btn-lg btn-light mb-4">Learn More</button>
+                    </div>
+                    <div class="col-12 col-lg-6 px-0">
+                        <img src="img/banner-desktop.png" class="w-100 d-none d-lg-block" alt="">
+                        <img src="img/banner-tablet.png" class="w-100 d-block d-lg-none" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        <div class="container mg-bg-footer-gray">
-            <div class="row py-3">
-                <div class="col-12 col-md-4 col-lg-2">
-                    <a href="" class="mg-title">PRODUCTS</a>
-                    <div class="mg-subitems">
-                        <a href="">HackerRank CodeScreen</a>
-                        <a href="">HackerRank CodePair</a>
-                        <a href="">HackerRank Projects</a>
-                        <a href="">HackerRank Insights</a>
-                        <a href="">HackerRank for Devolopers</a>
-                        <a href="">HackerRank for School</a>
-                        <a href="">Security</a>
-                        <a href="">Partners</a>
-                        <a href="">Pricing</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <a href="" class="mg-title">SOLUTIONS</a>
-                    <div class="mg-subitems">
-                        <a href="">University Recruiting</a>
-                        <a href="">Diversity & Inclusion</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <a href="" class="mg-title">CUSTOMERS</a>
-                    <div class="mg-subitems">
-                        <a href="">All Industries</a>
-                        <a href="">Financial Services</a>
-                        <a href="">Technology</a>
-                        <a href="">More</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <a href="" class="mg-title">RESOURCES</a>
-                    <div class="mg-subitems">
-                        <a href="">Events</a>
-                        <a href="">Datasheets</a>
-                        <a href="">Guides</a>
-                        <a href="">Webinars</a>
-                        <a href="">Research</a>
-                        <a href="">Security</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <a href="" class="mg-title">BLOG</a>
-                    <div class="mg-subitems">
-                        <a href="">Attract</a>
-                        <a href="">Assess</a>
-                        <a href="">Hire</a>
-                        <a href="">Stories</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <a href="" class="mg-title">ABOUT US</a>
-                    <div class="mg-subitems">
-                        <a href="">Company</a>
-                        <a href="">Careers</a>
-                        <a href="">Our Team</a>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4  d-flex justify-content-lg-end">
-                    <hr>
-                    <div class="mg-social d-flex align-items-center">
-                        <div class="fondo mg-bg-hr mx-2">
-                            <a href=""><i class="fab fa-hackerrank"></i></a>
+        <div class="mg-bg-footer-gray">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <a href="" class="mg-title">PRODUCTS</a>
+                        <div class="mg-subitems">
+                            <a href="">HackerRank CodeScreen</a>
+                            <a href="">HackerRank CodePair</a>
+                            <a href="">HackerRank Projects</a>
+                            <a href="">HackerRank Insights</a>
+                            <a href="">HackerRank for Devolopers</a>
+                            <a href="">HackerRank for School</a>
+                            <a href="">Security</a>
+                            <a href="">Partners</a>
+                            <a href="">Pricing</a>
                         </div>
-                        <div class="fondo mg-circulo-medio mg-bg-fb mx-2">
-                            <a href=""><i class="fab fa-facebook-f"></i></a>      
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <a href="" class="mg-title">SOLUTIONS</a>
+                        <div class="mg-subitems">
+                            <a href="">University Recruiting</a>
+                            <a href="">Diversity & Inclusion</a>
                         </div>
-                        <div class="fondo mg-circulo-medio mg-bg-in mx-2">
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <a href="" class="mg-title">CUSTOMERS</a>
+                        <div class="mg-subitems">
+                            <a href="">All Industries</a>
+                            <a href="">Financial Services</a>
+                            <a href="">Technology</a>
+                            <a href="">More</a>
                         </div>
-                        <div class="fondo mg-circulo-medio mg-bg-tw mx-2">
-                            <a href=""><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="row mb-4">
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <a href="" class="mg-title">RESOURCES</a>
+                                <div class="mg-subitems">
+                                    <a href="">Events</a>
+                                    <a href="">Datasheets</a>
+                                    <a href="">Guides</a>
+                                    <a href="">Webinars</a>
+                                    <a href="">Research</a>
+                                    <a href="">Security</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <a href="" class="mg-title">BLOG</a>
+                                <div class="mg-subitems">
+                                    <a href="">Attract</a>
+                                    <a href="">Assess</a>
+                                    <a href="">Hire</a>
+                                    <a href="">Stories</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <a href="" class="mg-title">ABOUT US</a>
+                                <div class="mg-subitems">
+                                    <a href="">Company</a>
+                                    <a href="">Careers</a>
+                                    <a href="">Our Team</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-end">
+                            <div class="col-12 col-lg-8 py-3   border-top">
+                                <div class="mg-social d-flex align-items-center pb-2">
+                                    <div class="fondo mg-bg-hr mx-2">
+                                        <a href=""><i class="fab fa-hackerrank"></i></a>
+                                    </div>
+                                    <div class="fondo mg-circulo-medio mg-bg-fb mx-2">
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                    <div class="fondo mg-circulo-medio mg-bg-in mx-2">
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                    <div class="fondo mg-circulo-medio mg-bg-tw mx-2">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                                <p class="text-muted m-0 pb-1">Copyright <i class="far fa-copyright text-muted"></i> 2019 HackerRank</p>
+                                <small class="text-muted py-0">Privacy Policy</small>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </footer>
+    <div class="alert mg-alertafinal bg-secondary alert-graydark fixed-bottom mb-0  pb-1 pt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p href="#" class="text-light mb-0 mg-small-p">We use cookies to ensure you have the best browsing experience on our website. Please read our <a href="" class="text-light">cookie policy</a> for more information about how we use cookies. <a href="" class="text-light">Find out more.</a>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Cerrar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
