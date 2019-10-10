@@ -14,8 +14,8 @@
 </head>
 
 <body class="mb-5">
-    <div class="alert  alert-success d-none d-md-block">
-        <div class="container ">
+    <div class="alert p-2 alert-success d-none d-md-block">
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <a href="#" class="text-success">Eliminate unconscious bias and offer an inclusive interview experience with HackerRank’s Diversity and Inclusion Center.</a>
@@ -24,15 +24,15 @@
         </div>
     </div>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white p-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-1 mb-5">
             <div class="container d-flex align-items-baseline sticky-top">
-                <a href="#" class="navbar-brand"><img src="img/hackerrank_logo.png" alt=""></a>
+                <a href="#" class="navbar-brand align-self-end"><img src="img/hackerrank_logo.png" alt=""></a>
                 <button type="button" data-toggle="collapse" class="navbar-toggler" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav mr-auto d-flex">
+                    <ul class="navbar-nav mr-auto d-flex align-items-end">
                         <li>
                             <button type="button" data-toggle="collapse" class="navbar-toggler mg-cierre close d-block d-lg-none" data-target="#navbar" aria-controls="navbar" aria-label="Menu de Navegacion">
                                 <span aria-hidden="true" class="d-block py-3">&times;</span>
@@ -40,6 +40,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" id="menu-products" data-toggle="dropdown" aria-haspopup="true">
+                                <p class="mg-hovertext">BUSINESS</p>
                                 Products
                             </a>
                             <div class="dropdown-divider d-lg-none"></div>
@@ -76,6 +77,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" id="menu-solutions" data-toggle="dropdown" aria-haspopup="true">
+                                <p class="mg-hovertext">BUSINESS</p>
                                 Solutions
                             </a>
                             <div class="dropdown-divider d-lg-none"></div>
@@ -87,11 +89,15 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Customers</a>
+                            <a href="#" class="nav-link">
+                                <p class="mg-hovertext">BUSINESS</p>
+                                Customers</a>
                             <div class="dropdown-divider d-lg-none"></div>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Resources</a>
+                            <a href="#" class="nav-link">
+                                    <p class="mg-hovertext">BUSINESS</p>
+                                Resources</a>
                             <div class="dropdown-divider d-lg-none"></div>
                         </li>
                         <li class="nav-item">
@@ -112,7 +118,7 @@
                         </li>
                     </ul>
                     <div>
-                        <ul class="navbar-nav mr-auto d-none d-lg-inline-block">
+                        <ul class="navbar-nav mr-auto d-none pt-4 mt-2 d-lg-inline-block">
                             <li class="nav-item text-center mg-log">
                                 <a href="#" class="btn btn-sm text-muted mr-1"> Login</a>
                                 <a href="#" class="btn text-muted btn-outline-dark px-4 btn-sm">Sign Up</a>
@@ -285,26 +291,28 @@
                                     </div>
                                 </div>
                                 <p class="text-muted m-0 pb-1">Copyright <i class="far fa-copyright text-muted"></i> 2019 HackerRank</p>
-                                <small class="text-muted py-0">Privacy Policy</small>
+                                <a href="" class="mg-policy"><small class="text-muted py-0 mg-policy-text">Privacy Policy</small></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-    </footer>
-    <div class="alert mg-alertafinal bg-secondary alert-graydark fixed-bottom mb-0  pb-1 pt-2">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p href="#" class="text-light mb-0 mg-small-p">We use cookies to ensure you have the best browsing experience on our website. Please read our <a href="" class="text-light">cookie policy</a> for more information about how we use cookies. <a href="" class="text-light">Find out more.</a>
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Cerrar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </p>
+        </div>
+        
+        <div class="alert mg-alertafinal bg-secondary alert-graydark fixed-bottom mb-0  pb-1 pt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p href="#" class="text-light mb-0 mg-small-p">We use cookies to ensure you have the best browsing experience on our website. Please read our <a href="" class="text-light">cookie policy</a> for more information about how we use cookies. <a href="" class="text-light">Find out more.</a>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Cerrar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
 
 
     <script src="js/jquery-3.4.1.min.js"></script>
