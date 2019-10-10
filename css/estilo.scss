@@ -215,15 +215,15 @@ footer {
         margin-right: 0!important;
         max-width: unset!important;
     }
+}
+
+@media screen and (max-width: 992px) {
     .nav-link {
         border-bottom: none !important;
         &:hover{
             border-bottom: none !important;
         }
     }
-}
-
-@media screen and (max-width: 992px) {
     .mg-bg-dual {
         background: #00afe6;
     }
