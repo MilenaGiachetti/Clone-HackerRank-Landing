@@ -234,6 +234,12 @@ footer .mg-bg-footer-gray .mg-policy .mg-policy-text:hover {
     margin-right: 0 !important;
     max-width: unset !important;
   }
+  .nav-link {
+    border-bottom: none !important;
+  }
+  .nav-link:hover {
+    border-bottom: none !important;
+  }
 }
 
 @media screen and (max-width: 992px) {

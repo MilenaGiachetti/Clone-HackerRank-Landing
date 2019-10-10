@@ -215,6 +215,12 @@ footer {
         margin-right: 0!important;
         max-width: unset!important;
     }
+    .nav-link {
+        border-bottom: none !important;
+        &:hover{
+            border-bottom: none !important;
+        }
+    }
 }
 
 @media screen and (max-width: 992px) {
